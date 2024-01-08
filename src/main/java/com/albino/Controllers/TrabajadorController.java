@@ -53,7 +53,7 @@ public class TrabajadorController {
 
         trabajador.nombre = trabajadorActualizado.nombre;
         trabajador.email = trabajadorActualizado.email;
-        // Puedes actualizar otros campos según sea necesario
+  
 
         return Response.status(Response.Status.OK).entity(trabajador).build();
     }

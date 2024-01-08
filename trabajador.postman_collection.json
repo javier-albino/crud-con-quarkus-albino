@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "cdd7b7ed-aaac-4a89-bb4c-8f69169c1075",
+		"name": "trabajador",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32201312",
+		"_collection_link": "https://martian-flare-413558.postman.co/workspace/0ec4d925-fe1a-4ddd-8a11-6db58264e1c0/collection/32201312-cdd7b7ed-aaac-4a89-bb4c-8f69169c1075?action=share&source=collection_link&creator=32201312"
+	},
+	"item": [
+		{
+			"name": "listartodoslostrabajadores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8086/api/trabajadores/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"api",
+						"trabajadores",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "guardar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \r\n        \"nombre\": \"Albino Sandoval\",\r\n        \"email\": \"j.albinosandoval@gmail.com\",\r\n         \"trabajo_id\" : 1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8086/api/trabajadores/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"api",
+						"trabajadores",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8086/api/trabajadores/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"api",
+						"trabajadores",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "actualizartrabajador",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 1,\r\n        \"nombre\": \"Albi\",\r\n        \"email\": \"j.albino@gmail.com\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8086/api/trabajadores/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"api",
+						"trabajadores",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
