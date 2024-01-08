@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # albino-crud-quarkus
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
@@ -58,3 +59,7 @@ If you want to learn more about building native executables, please consult http
 Easily start your RESTful Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+=======
+# crud-con-quarkus-albino
+crud-con-quarkus
+>>>>>>> a1da1d66c357893bd78c24623ce9b8eaad57281c
